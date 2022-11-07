@@ -3,7 +3,7 @@
 @section('container')
     <div class="mb-5">
         <h1 class="border-bottom pb-3 mb-3">About Us</h1>
-        <h5>{{ $description}}</h5>
+        <p>{{ $description}}</p>
         <img src="https://arkvets.com.au/wp-content/uploads/2017/11/cats_dogs_trimmed_ppt_compress.png" class="img-fluid rounded mx-auto d-block" alt="...">
         <p class="text-center">(these pets above aren't the lecturers)</p>
     </div>
