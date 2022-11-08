@@ -4,7 +4,7 @@
 
     <h1 class="text-center">Welcome to Docatto School!</h1>
     <div class="container">
-        <img src="https://pluspng.com/img-png/vet-clinic-png-we-re-pleased-you-ve-dropped-by-to-learn-more-about-us-acadia-veterinary-clinic-651.png" alt="..." class="img-fluid rounded mx-auto d-block mb-5 mt-5" width="40%"> 
+        <img src="https://pluspng.com/img-png/vet-clinic-png-we-re-pleased-you-ve-dropped-by-to-learn-more-about-us-acadia-veterinary-clinic-651.png" alt="..." class="img-fluid rounded mx-auto d-block mb-5 mt-5" width="35%"> 
     </div>
 
     <h1 class="text-center">The best school for pets!</h1>
