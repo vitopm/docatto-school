@@ -1,4 +1,4 @@
-# <img src="media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif" width="30" height="30" /> Docatto School Website <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="30" height="30" />
+# <img src="https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif" width="30" height="30" /> Docatto School Website <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="30" height="30" />
 
 <!-- --- -->
 
