@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CourseController;
 use App\Models\Course;
 use Illuminate\Support\Facades\Route;
 
@@ -65,18 +66,10 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/classes', function () {
-    return view('classes', [
-        'title' => 'Classes',
-        "courses" => Course::all()
-    ]);
-});
+// halaman all course
+
+Route::get('/classes', [CourseController::class, 'allCourse']);
 
 // halaman single post
 
-Route::get('classes/{slug}', function($slug){
-     return view('class',[
-        "title"=> "Single Post",
-        "course"=> Course::find($slug)
-     ]);
-});
+Route::get('classes/{slug}', [CourseController::class, 'detailCourse']);
