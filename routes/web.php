@@ -65,7 +65,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/classes', function () {
-    $courses = [
+    $classes = [
         [
             "name"=> "Cooking class",
             'slug'=>"cooking-class",
@@ -114,7 +114,7 @@ Route::get('/classes', function () {
 
     return view('classes', [
         'title' => 'Classes',
-        "courses" => $courses
+        "classes" => $classes
     ]);
 });
 
@@ -122,7 +122,7 @@ Route::get('/classes', function () {
 
 Route::get('classes/{slug}', function($slug){
 
-    $courses = [
+    $classes = [
         [
             "name"=> "Cooking class",
             'slug'=>"cooking-class",
@@ -171,9 +171,9 @@ Route::get('classes/{slug}', function($slug){
 
     $new_class=[];
     
-    foreach($courses as $course){
-        if($course['slug']=== $slug){
-            $new_class = $course;
+    foreach($classes as $class){
+        if($class['slug']=== $slug){
+            $new_class = $class;
         }   
     }
 
