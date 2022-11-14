@@ -10,14 +10,14 @@ class CourseController extends Controller
     //
     public function allCourse(){
         return view('classes', [
-            'title' => 'Classes',
+            'title' => 'Courses',
             "courses" => Course::all()
         ]);
     }
 
     public function detailCourse($slug){
         return view('class',[
-            "title"=> "Single Post",
+            "title"=> "Courses",
             "course"=> Course::find($slug)
          ]);
     }
