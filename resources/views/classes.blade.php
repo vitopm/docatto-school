@@ -4,7 +4,9 @@
     <h1 class="mb-3 pb-3 border-bottom">Our Classes</h1>
     @foreach($courses as $course)
         <div class="mb-5">
-            <h2>{{$course["name"]}}</h2>
+            <a href="/classes/{{$course["slug"]}}" >
+                <h2>{{$course["name"]}}</h2>
+            </a>
             <p>{{$course["description"]}}</p>
             @if($course["availability"]==="N")
                 <button type="button" class="btn btn-outline-dark" disabled>Class full</button>
