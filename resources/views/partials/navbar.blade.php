@@ -15,6 +15,12 @@
             <li class="nav-item">
             <a class="nav-link {{($title==='Courses') ? 'active' : ''}}" href="/classes">Courses</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link {{($title==='Gallery') ? 'active' : ''}}" href="/gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{($title==='Upload') ? 'active' : ''}}" href="/file-upload">Upload</a>
+            </li>
 
         </ul>
         <!-- <form class="d-flex" role="search">

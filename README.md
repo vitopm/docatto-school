@@ -7,4 +7,4 @@ This is a mini project to implement basic Laravel such as:
 - Blade directives
 - Web routing
 
-[Check out the demo on my website!](https://vitopm.com/wp/docatto/) (I haven't updated it yet, be patient!)
+[Check out the demo on my website!](https://vitopm.com/wp/docatto/)
